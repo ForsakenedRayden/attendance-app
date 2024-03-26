@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Sidebar App</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <button onclick="addStudent()" id="add" class="button">Add Student</button>
+
+        <a href="https://www.facebook.com/Ephraim.Bravo.OG"><button  class="mine">Made by: Ephraim L. Bravo</button></a>
+
+        <a href="https://www.facebook.com/100005298556486/"><button  class="teacher">Teacher: Ahdi Hael Dioquino</button></a>
+    </div>
+
+    <div class="content">
+        <h2>Students List:</h2>
+        <!-- For Note Content --
+            <div class="body__student">Variable</div>
+        -->
+    </div>
+    <div class="save">
+        <button onclick="clearAllStudents()" class="save">clear</button>
+    </div>
+
+
+    <script src="./java/addStudent.js"></script>
+    <script src="./java/deleteStudent.js"></script>
+
+</body>
+</html>

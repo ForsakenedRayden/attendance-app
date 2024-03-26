@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ccf3ff;
+    padding-top: 20px;
+    border: 10px solid #000000;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+}
+
+
+.sidebar a:hover {
+    background-color: #444;
+}
+
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 250px;
+    bottom: 0;
+    padding: 20px;
+    border:solid 20px #2c2c2c;
+    background:linear-gradient(to right, #4c4ec7, #4bdef8) #bdffff; 
+    overflow: auto; 
+    padding: 20px;
+}
+
+.button {
+    height: 40px;
+    right: 40px;
+    width: 230px;
+    font-size: 18px;
+    color: #f0e6e6;
+    background-color: #007bff;
+    border: none;
+    border-radius: solid 8px gray;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.save {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    color: #ffffff;
+}
+
+.save:hover {
+    background-color: #007bff; 
+    border-radius: 50%; 
+}
+
+.student-name {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: 5px solid #ffffff; 
+    padding: 5px;
+    text-align: left;
+    font-style:  italic;
+    display: block;
+    border-radius: 5px; 
+}
+
+.mine {
+    position: absolute;
+    right: 0px;
+    top: 80%;
+    height: 40px;
+    width: 230px;
+    font-size: 18px;
+    color: #f0e6e6;
+    background-color: #007bff;
+    border: none;
+}
+
+.teacher {
+    position: absolute;
+    right: 0px;
+    top: 90%;
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: #f0e6e6;
+    background-color: #007bff;
+    border: none;
+}
